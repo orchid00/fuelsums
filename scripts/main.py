@@ -69,7 +69,7 @@ print(masses)
 
 # now how to read a File into a list
 # read into a list, by default it will read at str
-with open(file = 'input.txt') as file:
+with open(file = 'data/input.txt') as file:
   masses = [line.rstrip('\n') for line in file]
 
 print(masses)
